@@ -7,7 +7,7 @@ const CircleSwitch = ({ isActive, onSwitchChange }) => {
   };
 
   return (
-    <div className="d-flex m-0 bg-primary justify-content-center align-items-center">
+    <div className="d-flex m-0 justify-content-center align-items-center">
       <div
         className={`btn btn-light btn-circle d-flex align-items-center ${
           isActive ? "active" : "inactive"
